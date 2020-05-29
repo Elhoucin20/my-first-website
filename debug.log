@@ -1,0 +1,11 @@
+[0526/063313.740:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0526/112933.439:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0526/112933.443:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0526/112933.482:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0526/112933.482:ERROR:process_info.cc(551)] ReadProcessData failed
+[0526/112933.481:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0526/112933.483:ERROR:process_info.cc(551)] ReadProcessData failed
+[0526/112933.483:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0526/112933.484:ERROR:exception_snapshot_win.cc(98)] thread ID 4676 not found in process
+[0526/112933.504:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0526/112933.504:ERROR:exception_snapshot_win.cc(98)] thread ID 8180 not found in process

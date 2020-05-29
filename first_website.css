@@ -1,0 +1,537 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 194, 198);
+}
+/*styling header*/
+.header{
+    width: 1349px;
+    height: 400px;
+    background-color: rgb(102, 112, 206);
+   
+}
+.header .inner_header{
+    background-color: rgb(46, 46, 77);
+    background-attachment: fixed;
+    
+}
+.header .inner_header ul{
+    list-style-type: none;
+    padding: 16px;
+    margin-left: 160px;
+}
+
+.header .inner_header ul li{
+    display: inline;
+    margin-left: 24px;
+    color: #bba5a5;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+}
+.header .inner_header ul li:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.header2{
+    height: 360px;
+    background-image: url('images/blue.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
+
+}
+.header2 .logo{
+   /* background-color: green;*/
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top:54px;
+    left: 200px;
+    background-attachment: fixed;
+}
+.header2 .logo h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 44px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header2 .logo h2 span{
+    font-size: 18px;
+}
+.header2 .logo p{
+    color: wheat;
+    margin-left: 10px;
+}
+.header2 .inner_haeder2{
+  /*  background-color: rgb(136, 255, 0);*/
+    position: relative;
+    top: -75px;
+    left: -50px;
+}
+.header2 .inner_haeder2 ul{
+    margin-left: 730px;
+    padding: 10px;
+    margin-top:-20px;
+}
+.header2 .inner_haeder2 ul li{
+    display: inline-block;
+    
+}
+.header2 .inner_haeder2 ul li a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(202, 197, 197);
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 22px;
+    padding: 14px 25px;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+
+}
+ .inner_haeder2 ul li a::before{
+    content: "";
+    width: 40px;
+    position: absolute;
+    border-bottom: 5px solid red;
+    bottom: 9px;
+    right: 350px;
+    transition: 0.9s all;
+}
+.header2 .inner_haeder2 ul li a:hover::before{
+    right: 18px;
+}
+
+/* container styling starts here*/
+.container{
+    background-color: rgb(16, 29, 78);
+    width: 920px;
+    height: 2096px;
+    position: relative;
+    top: -180px;
+    left: 210px;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+.opacity{
+    background-color: rgb(0, 0, 0);
+    height: 699%;
+    opacity: 0.5;
+    position: relative;
+    top: -198px;
+}
+.container .top_container{
+    height: 300px;
+    background-image: url('images/bussines.jpg');
+    background-image: url('images/bussines.jpg');
+    background-image: url('images/pngtreeelectronic.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 3px red;
+}
+.container .top_container h2{
+    width: 400px;
+    position: relative;
+    top:70px;
+    left: 120px;
+    text-transform: capitalize;
+    color: rgb(158, 11, 11);
+    font-weight: 800px;
+    font-size: 43px;
+    text-shadow: 2px 1px rgb(250, 125, 52);
+    font-family: 'Droid serif', serif; 
+    font-weight: 400; 
+    font-style: italic;
+     
+}
+.container .top_container h2 span{
+    display: block;
+    font-size: 15px;
+    opacity: 1;
+    color: black;
+    font-style: italic;
+    text-shadow: 0px 0px ;
+    margin-left: 130px;
+    visibility: hidden;
+}
+.container .top_container p{
+    width: 390px;
+    margin-top: 60px;
+    margin-left: 122px;
+    color: azure;
+    text-align: justify;
+}
+
+
+.container .middle_container{
+    position: relative;
+    top: -35px;
+}
+.container .middle_container .div1{
+    background-color: rgb(146, 151, 170);;
+    width: 600px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 90px;
+}
+.middle_container .div1 h3{
+    color: rgb(25, 9, 58);
+    font-size: 21px;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-left: 5px;
+    position: relative;
+    top:5px;
+}
+.middle_container .div1 .images{
+     width: 230px;
+     height: 180px;
+     margin-top: 20px;
+     margin-left: 5px;
+     float: left;
+     border-radius: 4px;
+     display: block;
+    transition: all .5s ease-in-out;
+    box-shadow: -2px -1.5px 2.5px red;
+}
+.div1 .images:hover{
+    transform: scale3d(1,1,1) rotatey(180deg);
+    
+}
+.middle_container .div1 h4{
+    color: rgb(189, 3, 3);
+    font-size: 21px;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-left: 240px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #bba5a5;
+    width: 345px;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+.middle_container .div1 h4:hover{
+    background-color: #bba5a5;
+    color: rgb(204, 28, 28);
+}
+.middle_container .div1 p{
+    position: relative;
+    left: 6px;
+    margin-top: 10px;
+    white-space: normal;
+}
+
+.container .middle_container .comments{
+    background-color: rgb(196, 192, 192);
+    width: 600px;
+    height: 50px;
+    margin: 10px;
+}
+.middle_container .comments h3{
+    color: rgb(65, 62, 62);
+    padding-top: 11px;
+    float: left;
+    margin-left: 10px;
+ }
+ .middle_container .comments p{
+    color: rgb(0, 0, 0);
+    margin-left: 430px;
+    position: relative;
+    top: 13px;
+    font-size: 18px;
+ }
+ .middle_container .comments p a{
+     text-decoration: none;
+     color:rgb(223, 72, 155);
+ }
+
+.container .middle_container .div2{
+    background-color: rgb(146, 151, 170);;
+    width: 600px;
+    height: 250px;
+    margin: 10px;
+   
+}
+.middle_container .div2 h3{
+    color: rgb(25, 9, 58);
+    font-size: 21px;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-left: 5px;
+    position: relative;
+    top:5px;
+}
+.middle_container .div2 .images{
+    width: 230px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 5px;
+    float: left;
+    border-radius: 4px;
+    display: block;
+   transition: all .5s ease-in-out;
+   box-shadow: -2px -1.5px 2.5px red;
+}
+.div2 .images:hover{
+   transform: scale3d(1,1,1) rotatey(180deg);
+   
+}
+.middle_container .div2 h4{
+    color: rgb(189, 3, 3);
+    font-size: 21px;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-left: 240px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #bba5a5;
+    width: 345px;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+.middle_container .div2 h4:hover{
+    background-color: #bba5a5;
+    color: rgb(204, 28, 28);
+}
+.middle_container .div2 p{
+    position: relative;
+    left: 6px;
+    margin-top: 10px;
+    white-space: normal;
+}
+
+.container .middle_container .side1{
+    background-color: rgb(146, 151, 170);;
+    width: 270px;
+    height: 125px;
+    float: right;
+    position: relative;
+    top: -580px;
+    left: -20px;
+}
+.container .middle_container .side1 h1{
+   color: rgb(25, 9, 58);;
+   font-size: 24px; 
+   padding-top: 20px;
+   padding-left: 20px;
+
+}
+.container .middle_container .side1 input{
+    width: 230px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+
+.container .middle_container .side2{
+    background-color: rgb(146, 151, 170);;
+    width: 270px;
+    height: 430px;
+    float: right;
+    position: relative;
+    top: -440px;
+    left: 250px;
+}
+.container .middle_container .side2 h2{
+    color: rgb(25, 9, 58);;
+    font-size: 23px;
+    position: relative;
+    top:15px;
+    left: 18px;
+}
+
+.container .middle_container .side2 img{
+    width: 199px;
+    height: 110px;
+    margin : 10px;
+    position: relative;
+    top:22px;
+    left: 10px;
+    border-radius: 4px;
+    display: block;
+    transition: all .5s ease-in-out;
+    box-shadow: -2px -1.5px 2.5px red;
+}
+.side2 img:hover{
+   transform: scale3d(1,1,1) rotatey(180deg);
+   
+}
+
+.h3{
+    color: rgb(207, 185, 185);
+    font-size: 38px;
+    position: relative;
+    left:360px;
+    top: -455px;
+    width: 390px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    
+}
+.our_work .work1{
+    width: 230px;
+    height: 160px;
+    background-color: rgb(37, 33, 240);
+    position: relative;
+    left: -460px;
+    top: 70px;
+}
+.our_work .work1  img{
+    width: 250px;
+}
+
+.our_work .work4{
+    width: 230px;
+    height: 160px;
+    margin-top: 20px;
+    background-color: rgb(33, 240, 126);
+    position: relative;
+    left: -165px;
+    top: -110px;
+}
+.our_work .work4  img{
+    width: 250px;
+}
+.our_work .work5{
+    width: 230px;
+    height: 160px;
+    margin-top: 20px;
+    background-color: rgb(207, 173, 22);
+    position: relative;
+    left: 130px;
+    top: -290px;
+}
+.our_work .work5  img{
+    width: 250px;
+}
+
+
+.our_service{
+   
+    height: 260px;
+}
+.our_service h4{
+    color: white;
+    width: 400px;
+    font-size: 35px;
+    position: relative;
+    top: -60px;
+    left: 315px;
+    letter-spacing: 11px;
+}
+.our_service .service1{
+    width: 230px;
+    height: 220px;
+    background-color: rgb(37, 33, 240);
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+
+.our_service .service2{
+    width: 230px;
+    height: 220px;
+    margin-top: 20px;
+    background-color: rgb(33, 240, 126);
+    position: relative;
+    left: 340px;
+    top: -280px;
+}
+.our_service .service3{
+    width: 230px;
+    height: 220px;
+    margin-top: 20px;
+    background-color: rgb(207, 173, 22);
+    position: relative;
+    left: 640px;
+    top: -520px;
+}
+.our_service img{
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius:  100px;
+    
+}
+.our_service p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.contact .part1{
+    background-color: rgb(101, 172, 194);
+    width: 380px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+}
+.contact .part1 h1{
+    color: rgb(255, 255, 255);
+    margin-top: 160px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.contact .part1 p{
+    color: rgb(252, 238, 238);
+    margin-left: 40px;
+    
+}
+.contact .part2{
+    background-color: rgb(110, 157, 201);
+    width: 450px;
+    height: 400px;
+    float: left;
+}
+.contact .part2 input{
+    width: 340px;
+    height: 50px;
+    background-color: rgb(253, 250, 250);
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+    left: 20px;
+    border-radius: 5px;
+}
+textarea{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 340px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+}
+button
+{
+    color: rebeccapurple;
+    width: 150px;
+    height: 28px;
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+footer{
+    clear: both;
+    margin-top: 70px;
+    background-color: #302b36;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 90px;
+}
